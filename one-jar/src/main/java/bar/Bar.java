@@ -7,7 +7,7 @@ import java.lang.reflect.Field;
 /**
  * @author Kohsuke Kawaguchi
  */
-public class Main {
+public class Bar {
     public static void main(String[] args) throws Exception {
         Field f = Foo.class.getDeclaredField("x");
         f.setAccessible(true);
